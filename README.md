@@ -7,7 +7,7 @@ To analyze vulnerabilities in local Large Language Models (LLMs) and develop mid
 
 ## 🏗️ Architecture
 * **Engine:** Ollama (running Llama 3.2)
-* **Infrastructure:** Local Linux Server (`robdev`) with AMD GPU Acceleration.
+* **Infrastructure:** Local Linux Server with AMD GPU Acceleration.
 * **Defense Layer:** Custom Python Middleware (FastAPI/Scripts) for Input Sanitization.
 * **Red Team Tools:** Garak (LLM Vulnerability Scanner), Manual Payload Testing.
 
