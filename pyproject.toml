@@ -1,0 +1,16 @@
+[project]
+name = "sentinel-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "ollama>=0.6.1",
+    "pandas>=3.0.0",
+    "pydantic>=2.12.5",
+    "rich>=14.3.2",
+    "scapy>=2.7.0",
+    "scikit-learn>=1.8.0",
+]
